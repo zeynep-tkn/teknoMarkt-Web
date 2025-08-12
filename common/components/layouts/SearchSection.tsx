@@ -10,18 +10,18 @@ const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
 
 const SearchSection = () => {
     return (
-        <div className="w-96 justify-center items-center gap-20 lg:flex md:flex hidden">
+        <div className="w-96 justify-center items-center gap-20 lg:flex md:flex hidden text-black">
             <div className="relative">
                 <InputField
                     type="text"
-                    placeholder="Search any things"
+                    placeholder="Ne arıyorsunuz?"
                     className="border border-gray-300 w-96 h-12 pl-6 pr-24 bg-white rounded-2xl focus:outline-none focus:border-amber-600"
                 />
                 <Button
                     onClick={handleClick}
                     type="submit"
                     className="absolute inset-y-0 right-0 px-4 py-2 bg-amber-500 text-white font-semibold hover:bg-amber-600">
-                    Search
+                    Ara
                 </Button>
             </div>
         </div>

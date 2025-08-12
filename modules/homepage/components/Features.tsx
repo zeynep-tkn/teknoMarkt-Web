@@ -19,8 +19,8 @@ const Features = () => {
                             </div>
                         </div>
                         <div className="flex-col justify-center items-start gap-1.5 inline-flex">
-                            <div className="text-sky-900 text-2xl font-semibold">Free delivery</div>
-                            <div className="text-sky-900 text-lg font-normal">on order above $50,00</div>
+                            <div className="text-sky-900 text-2xl font-semibold">Ücretsiz Teslimat</div>
+                            <div className="text-sky-900 text-lg font-normal">$50,00 üzerindeki siparişlerde</div>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-8 flex">
@@ -33,8 +33,8 @@ const Features = () => {
                             </div>
                         </div>
                         <div className="flex-col justify-center items-start gap-1.5 inline-flex">
-                            <div className="text-sky-900 text-2xl font-semibold">Best quality </div>
-                            <div className="text-sky-900 text-lg font-normal">best quality in low price</div>
+                            <div className="text-sky-900 text-2xl font-semibold">En iyi kalite </div>
+                            <div className="text-sky-900 text-lg font-normal">düşük fiyat yüksek kalite</div>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-8 flex">
@@ -46,8 +46,8 @@ const Features = () => {
                             </div>
                         </div>
                         <div className="flex-col justify-center items-start gap-1.5 inline-flex">
-                            <div className="text-sky-900 text-2xl font-semibold">1 year warranty</div>
-                            <div className="text-sky-900 text-lg font-normal">Avaliable warranty</div>
+                            <div className="text-sky-900 text-2xl font-semibold">1 yıl garanti</div>
+                            <div className="text-sky-900 text-lg font-normal">Mevcut garanti durumu</div>
                         </div>
                     </div>
                 </div>

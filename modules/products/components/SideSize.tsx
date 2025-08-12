@@ -5,11 +5,11 @@ export const SideSize = () => {
     return (
         <>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900 font-semibold">Size</div>
+                <div className="text-sky-900 font-semibold">Ebat</div>
             </div>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900">0 selected</div>
-                <a href="#" className="text-sky-900 text-sm">Reset</a>
+                <div className="text-sky-900">0 seçilmiş</div>
+                <a href="#" className="text-sky-900 text-sm">Sıfırla</a>
             </div>
             {SIZE.map((size, index) => (
                 <div key={index} className="flex justify-between items-center mb-3">

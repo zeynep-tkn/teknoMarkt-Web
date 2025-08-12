@@ -6,13 +6,13 @@ const Newsletter = () => {
         <div className="container mx-auto">
             <div className="flex pt-10">
                 <div className="w-[90%] h-36 bg-white rounded-2xl justify-center items-center gap-5 lg:gap-32 flex m-auto">
-                    <div className="text-cyan-800 text-2xl font-bold ml-3">Subscribe newsletter</div>
+                    <div className="text-cyan-800 text-2xl font-bold ml-3">Abone olun</div>
                     <div className="justify-center items-center gap-20 flex mr-3">
                         <div className="relative">
                             <InputField
                                 type='text'
                                 className="w-96 h-14 pl-6 pr-16 bg-amber-500 rounded-2xl justify-between p-5 flex m-auto text-white placeholder:text-white focus:outline-none focus:border-white"
-                                placeholder='Email address'
+                                placeholder='Mail adres'
                             />
                             <svg
                                 className="absolute right-5 top-5 cursor-pointer"
@@ -46,7 +46,7 @@ const Newsletter = () => {
                                     </svg>
                                 </div>
                             </div>
-                            <div className="text-zinc-600 text-sm font-semibold">Call us 24/7 :<br />(+62) 0212 212 121</div>
+                            <div className="text-zinc-600 text-sm font-semibold">Bizi arayın 24/7 :<br />(+212) 212 121</div>
                         </div>
                     </div>
                 </div>

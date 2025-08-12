@@ -4,11 +4,11 @@ const SideColor = () => {
     return (
         <>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900 font-semibold">Brand</div>
+                <div className="text-sky-900 font-semibold">Renk</div>
             </div>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900">0 selected</div>
-                <a href="#" className="text-sky-900 text-sm">Reset</a>
+                <div className="text-sky-900">0 seçilmiş</div>
+                <a href="#" className="text-sky-900 text-sm">Sıfırla</a>
             </div>
             <div className="flex justify-between items-center mb-3">
                 <div className="flex flex-wrap gap-5 m-auto">

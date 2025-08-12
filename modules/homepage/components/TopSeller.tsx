@@ -35,7 +35,7 @@ const TopSeller = () => {
                         </div>
                         <div className="justify-center items-center gap-5 inline-flex">
                             <Button className="w-56 h-14 pl-6 justify-between flex items-center bg-blue-300 hover:bg-blue-400 text-slate-800 text-base font-semibold">
-                                Add to cart
+                                Sepete ekle
                                 <div className="w-8 h-8 bg-amber-500 rounded-full justify-center items-center flex mr-4">
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.89203 1.9411H3.1399C3.91443 1.9411 4.52402 2.60806 4.45947 3.37543L3.86423 10.5184C3.76382 11.6873 4.68896 12.6914 5.86511 12.6914H13.5029C14.5356 12.6914 15.4392 11.8451 15.5181 10.8196L15.9054 5.44086C15.9914 4.25037 15.0878 3.28219 13.8902 3.28219H4.6316" stroke="white" strokeWidth="1.47531" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
@@ -57,9 +57,9 @@ const TopSeller = () => {
                 <div className="flex flex-col">
                     <div className="w-[500px] h-60 rounded-2xl border border-zinc-400 flex-col justify-center items-center gap-4 inline-flex mb-5 cursor-pointer hover:bg-slate-100">
                         <div className="justify-start items-center gap-12 inline-flex">
-                            <img className="w-72 h-44 p-2 relative rounded-2xl" src="https://source.unsplash.com/288x176?gaming" />
+                            <img className="w-72 h-44 p-2 relative rounded-2xl" src="/assets/img/jbl-bar.png" />
                             <div className="flex-col justify-center items-start gap-4 inline-flex">
-                                <div className="text-sky-900 text-lg font-medium">Play game</div>
+                                <div className="text-sky-900 text-lg font-medium">Akıllı kamera</div>
                                 <div className="text-neutral-600 text-lg font-semibold">$11,70</div>
                                 <Star count={5} />
                             </div>
@@ -67,9 +67,9 @@ const TopSeller = () => {
                     </div>
                     <div className="w-[500px] h-60 rounded-2xl border border-zinc-400 flex-col justify-center items-center gap-4 inline-flex cursor-pointer hover:bg-slate-100">
                         <div className="justify-start items-center gap-12 inline-flex">
-                            <img className="w-72 h-44 p-2 relative rounded-2xl" src="https://source.unsplash.com/288x176?laptop" />
+                            <img className="w-72 h-44 p-2 relative rounded-2xl" src="/assets/img/jbl-bar.png" />
                             <div className="flex-col justify-center items-start gap-4 inline-flex">
-                                <div className="text-sky-900 text-lg font-medium">Play game</div>
+                                <div className="text-sky-900 text-lg font-medium">Gaming Klavye</div>
                                 <div className="text-neutral-600 text-lg font-semibold">$11,70</div>
                                 <Star count={5} />
                             </div>

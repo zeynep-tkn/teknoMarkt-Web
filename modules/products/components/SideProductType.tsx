@@ -4,11 +4,11 @@ const SideProductType = () => {
     return (
         <>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900 font-semibold">Product type</div>
+                <div className="text-sky-900 font-semibold">Ürün türü</div>
             </div>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900">0 selected</div>
-                <a href="#" className="text-sky-900 text-sm">Reset</a>
+                <div className="text-sky-900">0 seçilmiş</div>
+                <a href="#" className="text-sky-900 text-sm">Sıfırla</a>
             </div>
             <div className="flex justify-between items-center mb-3">
                 <label className="flex items-center space-x-2">
@@ -16,7 +16,7 @@ const SideProductType = () => {
                     // checked={}
                     // onChange={} 
                     />
-                    <label htmlFor='smartWatch' className='ml-0 text-gray-800'>Smart-watch</label>
+                    <label htmlFor='smartWatch' className='ml-0 text-gray-800'>Akıllı saat</label>
                 </label>
                 <div className="text-sky-900">5</div>
             </div>

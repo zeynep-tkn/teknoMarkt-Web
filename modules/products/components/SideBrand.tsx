@@ -4,11 +4,11 @@ const SideBrand = () => {
     return (
         <>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900 font-semibold">Brand</div>
+                <div className="text-sky-900 font-semibold">Marka</div>
             </div>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900">0 selected</div>
-                <a href="#" className="text-sky-900 text-sm">Reset</a>
+                <div className="text-sky-900">0 seçilmiş</div>
+                <a href="#" className="text-sky-900 text-sm">Sıfırla</a>
             </div>
             <div className="flex justify-between items-center mb-3">
                 <label className="flex items-center space-x-2">
@@ -16,7 +16,7 @@ const SideBrand = () => {
                     // checked={}
                     // onChange={} 
                     />
-                    <label htmlFor='ins' className='ml-0 text-gray-800'>In stock</label>
+                    <label htmlFor='ins' className='ml-0 text-gray-800'>Stokta</label>
                 </label>
                 <div className="text-sky-900">5</div>
             </div>
@@ -27,7 +27,7 @@ const SideBrand = () => {
                     // checked={}
                     // onChange={} 
                     />
-                    <label htmlFor='oos' className='ml-0 text-gray-300'>Out of stock</label>
+                    <label htmlFor='oos' className='ml-0 text-gray-300'>Stokta yok</label>
                 </label>
                 <div className="text-sky-900">0</div>
             </div>

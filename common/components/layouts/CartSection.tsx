@@ -10,7 +10,7 @@ const CartSection = () => {
                         <path d="M21.3794 22C21.3794 18.13 17.5294 15 12.7894 15C8.04943 15 4.19943 18.13 4.19943 22" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
-                <div className="text-white text-sm font-normal">Sign in</div>
+                <div className="text-white text-sm font-normal">Giriş Yap</div>
             </div>
             <div className="w-32 h-10 justify-center items-center gap-3 flex hover:bg-amber-600 cursor-pointer rounded-lg">
                 <div className="justify-center items-center flex">
@@ -21,7 +21,7 @@ const CartSection = () => {
                         <div className="text-white text-xs font-normal">0</div>
                     </div>
                 </div>
-                <div className="text-white text-sm font-normal">Wishlist</div>
+                <div className="text-white text-sm font-normal">Favorilerim</div>
             </div>
             <div className="w-32 h-10 justify-center items-center gap-3 flex hover:bg-amber-600 cursor-pointer rounded-lg">
                 <div className="justify-center items-center flex">
@@ -35,7 +35,7 @@ const CartSection = () => {
                         <div className="text-white text-xs font-normal">0</div>
                     </div>
                 </div>
-                <div className="text-white text-sm font-normal">Cart</div>
+                <div className="text-white text-sm font-normal">Sepetim</div>
             </div>
         </div>
     )

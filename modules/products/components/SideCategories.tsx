@@ -21,15 +21,15 @@ const SideCategories = () => {
     return (
         <div className='w-[300px]'>
             <div className="flex justify-between mb-3">
-                <div className="text-sky-900 font-semibold">Categories</div>
-                <a href="#" className="text-sky-900 text-sm">Reset</a>
+                <div className="text-sky-900 font-semibold">Kategoriler</div>
+                <a href="#" className="text-sky-900 text-sm">Sıfırla</a>
             </div>
             <div className="flex justify-between items-center mb-3">
                 <label className="flex items-center space-x-2">
                     <input id='allCategories' type="checkbox" className="h-6 w-6 rounded-md bg-slate-400 checked:bg-slate-700 focus:ring-0"
                         checked={checked}
                         onChange={handleChange} />
-                    <label htmlFor='allCategories' className='ml-0 text-gray-800'>All Categories</label>
+                    <label htmlFor='allCategories' className='ml-0 text-gray-800'>Tüm Kategoriler</label>
                 </label>
                 <div className="text-sky-900">10</div>
             </div>
@@ -49,7 +49,7 @@ const SideCategories = () => {
                     <input id='other' type="checkbox" className="h-6 w-6 rounded-md bg-slate-400 checked:bg-slate-700 focus:ring-0"
                         checked={isChecked[CATEGORIES.length]}
                         onChange={() => handleCheckboxChange(CATEGORIES.length)} />
-                    <label htmlFor='other' className='ml-0 text-gray-800'>other</label>
+                    <label htmlFor='other' className='ml-0 text-gray-800'>Diğer</label>
                 </label>
                 <div className="text-sky-900">5</div>
             </div>
